@@ -1,0 +1,484 @@
+html {
+  font-size: inherit;
+}
+
+body {
+  font-size: 62.5%;
+}
+
+img {
+  width: 18rem;
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  font-size: 62.5%;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  color: #000;
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+}
+
+.heading2 {
+  color: #000;
+  font-family: "Oswald", sans-serif;
+  font-size: 1rem;
+}
+
+.paragraph {
+  font-family: "Abel", sans-serif;
+  color: #000;
+  font-size: 1.2rem;
+}
+
+.heading3 {
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem;
+}
+
+.card {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.footer {
+  width: 100vw;
+  background-color: #231c3c;
+}
+
+.footer .main-footer {
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.footer .main-footer .footer-brand {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.2rem;
+}
+
+.footer .main-footer .footer-brand .brand-logo {
+  font-family: "Pacifico", cursive;
+  margin: 1rem 0;
+}
+
+.footer .main-footer ul {
+  list-style: none;
+}
+
+.footer .main-footer ul li {
+  display: inline-block;
+  padding-left: .2rem;
+}
+
+.footer .main-footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer .main-footer ul .footer-dropdown li a {
+  color: #000;
+}
+
+.footer .main-footer ul li i {
+  margin-top: 1rem;
+}
+
+.main-cta {
+  width: 100vw;
+  background-color: #231c3c;
+  padding: .5rem 0;
+}
+
+.main-cta .form-cta {
+  width: 80%;
+  margin: 1rem auto;
+  font-family: "Oswald", sans-serif;
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+}
+
+.navigation-bar {
+  width: 100vw;
+}
+
+.navigation-bar .navbar {
+  width: 100%;
+}
+
+.navigation-bar {
+  font-family: "Oswald", sans-serif;
+  background-color: #fff !important;
+  -webkit-box-shadow: 10px 10px #000;
+          box-shadow: 10px 10px #000;
+}
+
+.navigation-bar .navbar {
+  padding: 3% 10%;
+  max-height: 4rem;
+}
+
+.navigation-bar .navbar .nav-link {
+  font-size: 1rem;
+  font-family: "Abel", sans-serif;
+  color: #000;
+}
+
+.navigation-bar .navbar-brand {
+  font-family: "Pacifico", cursive;
+  font-size: 1rem;
+}
+
+.navigation-bar .brand-sub {
+  font-family: "Oswald", sans-serif;
+  font-size: .5rem;
+}
+
+.navigation-bar .navbar-toggler-icon {
+  font-size: .8rem;
+}
+
+.navigation-bar .drop-item {
+  padding: 0;
+}
+
+.navigation-bar .drop-item a {
+  padding-left: 0;
+  font-size: 1rem;
+  font-family: "Abel", sans-serif;
+  color: #000;
+}
+
+.about-description {
+  width: 100vw;
+  text-align: center;
+}
+
+.about-description .about-us__main {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 4rem;
+}
+
+.about-description .about-us__main h1 {
+  padding-top: 1rem;
+}
+
+.about-description img {
+  width: 18rem;
+}
+
+.team {
+  width: 100vw;
+  text-align: center;
+}
+
+.team .team-member {
+  margin: 1rem auto;
+}
+
+.team .team-member .card {
+  width: 18rem;
+  margin: 1rem auto;
+}
+
+.contact {
+  background-color: #231c3c;
+  color: #fff;
+}
+
+.contact .main-contact {
+  width: 80%;
+  margin: 3.5rem auto 0;
+  text-align: center;
+  height: 80vh;
+}
+
+.contact .main-contact h1 {
+  color: #fff;
+  font-family: "Pacifico", cursive;
+  padding: 1rem 0;
+}
+
+.contact .main-contact h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 1rem;
+  padding: 1rem 0;
+}
+
+.contact .main-contact input {
+  padding: .5rem 0;
+  margin: .5rem 0;
+  width: 50%;
+}
+
+.product-description {
+  width: 100vw;
+}
+
+.product-description__main {
+  width: 80%;
+  margin: 5rem auto;
+}
+
+.features {
+  width: 100vw;
+}
+
+.features-main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.index-main {
+  padding-top: 4rem;
+  position: relative;
+  color: #696969;
+}
+
+.index-main .index-caption {
+  position: absolute;
+  bottom: 30%;
+  color: #000;
+  font-family: "Oswald", sans-serif;
+  line-height: 1.5rem;
+  padding-left: .5rem;
+}
+
+.index-main .index-caption h5 {
+  font-size: 1rem;
+}
+
+.index-main .index-caption h1 {
+  font-size: 1.6rem;
+  padding: 1rem 0;
+}
+
+.index-main .index-caption h1 .index-colored {
+  color: #f8b43f;
+}
+
+.index-main .index-img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.index-main .index-img img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.index-card {
+  text-align: center;
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.index-card .card {
+  width: 90%;
+  color: #fff;
+  font-size: 150%;
+  margin: .5rem auto;
+}
+
+.index-card .card i {
+  padding-bottom: .8rem;
+}
+
+.skills {
+  width: 100vw;
+  padding-bottom: 3rem;
+}
+
+.skills .skills-btn {
+  font-size: 100%;
+}
+
+.home-products {
+  width: 100vw;
+}
+
+.home-products .home-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.home-products .home-container .home-header h2 {
+  width: 40%;
+  float: left;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0;
+}
+
+.home-products .home-container .home-header .home-btn {
+  width: 40%;
+  float: right;
+  text-align: center;
+  margin: 0;
+}
+
+.home-products .home-container .home-header .home-btn a {
+  font-size: 1rem;
+}
+
+.home-products .product-cards {
+  margin: 1rem 0;
+}
+
+.home-products .product-cards .card {
+  margin: 1rem auto;
+  width: 80%;
+}
+
+.home-products .product-cards .card ul {
+  list-style: none;
+}
+
+.home-about {
+  width: 100vw;
+}
+
+.home-about .home-about--info {
+  width: 80%;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.home-about .home-about--info .home-about--img img {
+  width: 50%;
+  float: left;
+}
+
+.home-about .home-about--info .home-about--img p {
+  font-family: "Abel", sans-serif;
+  font-size: 1.4rem;
+}
+
+.FAQ {
+  width: 100vw;
+}
+
+.FAQ .questions {
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.FAQ .questions h1 {
+  padding: 1rem 0;
+}
+
+.product-descrption {
+  width: 100vw;
+}
+
+.product-descrption__main {
+  width: 80%;
+  margin: 5rem auto;
+}
+
+.product-description {
+  width: 100vw;
+  text-align: center;
+}
+
+.product-description .product-header {
+  width: 80%;
+  margin: 5rem auto 1rem;
+}
+
+.stages {
+  width: 100vw;
+  text-align: center;
+}
+
+.stages .stages-main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.stages .stages-main ul li {
+  list-style: none;
+}
+
+.benefits {
+  width: 100vw;
+}
+
+.benefits .benefits-main {
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.benefits .benefits-main ul li {
+  list-style: none;
+  font-size: 1rem;
+  font-family: "Abel", sans-serif;
+  color: #000;
+}
+
+.collection {
+  width: 100vw;
+}
+
+.collection .collection-main {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.FAQ {
+  width: 100vw;
+}
+
+.FAQ .faq-main {
+  width: 80%;
+  margin: 1rem auto;
+}
+/*# sourceMappingURL=main.css.map */

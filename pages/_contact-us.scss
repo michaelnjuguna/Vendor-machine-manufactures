@@ -1,0 +1,28 @@
+.contact{
+    background-color: $tertiarycolor;
+    color: $secondaryfontcolor;
+
+    .main-contact{
+        width: 80%;
+        margin: 3.5rem auto 0;
+        text-align: center;
+        height: 80vh;
+
+        h1{
+            color: $secondaryfontcolor;
+            font-family: $navbarfont;
+            padding: 1rem 0;
+        }
+        h2{
+            font-family: $headerfont;
+            font-size: 1rem;
+            padding: 1rem 0;
+        }
+
+        input{
+            padding: .5rem 0;
+            margin: .5rem 0;
+            width: 50%;
+        }
+    }
+}

@@ -1,0 +1,154 @@
+.index-main {
+    padding-top: 4rem;
+    position: relative;
+    color: $tertiaryfontcolor;
+
+    .index-caption {
+        position: absolute;
+        bottom: 30%;
+        color: $primaryfontcolor;
+        font-family: $headerfont;
+        line-height: 1.5rem;
+        padding-left: .5rem;
+
+        h5 {
+            font-size: 1rem;
+        }
+
+        h1 {
+            font-size: 1.6rem;
+            padding: 1rem 0;
+
+            .index-colored {
+                color: $fourth-color;
+            }
+        }
+    }
+
+    .index-img {
+        width: 80%;
+        margin: 0 auto;
+        img {
+            width: 80%;
+            margin: 0 auto;
+            
+        }
+    }
+}
+
+
+
+// skills section
+
+.index-card {
+    text-align: center;
+    width: 80%;
+    margin: 1rem auto;
+
+    .card {
+        width: 90%;
+        color: $secondaryfontcolor;
+        font-size: 150%;
+        margin: .5rem auto;
+
+        i {
+            padding-bottom: .8rem;
+        }
+    }
+
+}
+
+.skills {
+    width: 100vw;
+
+    padding-bottom: 3rem;
+
+    .skills-btn {
+        font-size: 100%;
+    }
+
+}
+
+// home products
+
+.home-products {
+    width: 100vw;
+
+    .home-container {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+
+        .home-header {
+            h2 {
+                width: 40%;
+                float: left;
+                font-size: 1.2rem;
+                text-align: center;
+                margin: 0;
+            }
+
+            .home-btn {
+                width: 40%;
+                float: right;
+                text-align: center;
+                margin: 0;
+
+                a {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+    //products
+    .product-cards{
+        margin: 1rem 0;
+        .card{
+            margin: 1rem auto;
+            width: 80%;
+            ul{
+                list-style: none;
+            }
+        }
+    }
+}
+
+//about us section
+
+.home-about {
+    width: 100vw;
+
+    .home-about--info {
+        width: 80%;
+        margin: 1rem auto;
+        text-align: center;
+
+        .home-about--img {
+            img {
+                width: 50%;
+                float: left;
+            }
+
+            p {
+                font-family: $paragraphfont;
+                font-size: 1.4rem;
+            }
+        }
+    }
+
+}
+
+//FAQ
+
+.FAQ {
+    width: 100vw;
+
+    .questions {
+        width: 80%;
+        margin: 1rem auto;
+
+        h1 {
+            padding: 1rem 0;
+        }
+    }
+}

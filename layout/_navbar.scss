@@ -1,0 +1,45 @@
+.navigation-bar {
+    font-family: $headerfont;
+    background-color: $primarycolor !important;
+    box-shadow: 10px 10px $primaryfontcolor ;
+
+    .navbar {
+        padding: 3% 10%;
+        max-height: 4rem;
+
+
+        .nav-link{
+            font-size: 1rem;
+            font-family: $paragraphfont;
+            color: $primaryfontcolor;
+        }
+        
+    }
+
+    .navbar-brand {
+        font-family: $navbarfont;
+        font-size: 1rem;
+    }
+
+   
+    .brand-sub {
+        font-family: $headerfont;
+        font-size: .5rem;
+    }
+    .navbar-toggler-icon{
+        font-size: .8rem;
+        
+    }
+
+
+    .drop-item {
+        padding: 0;
+
+        a {
+            padding-left: 0;
+            font-size: 1rem;
+            font-family: $paragraphfont;
+            color: $primaryfontcolor;
+        }
+    }
+}

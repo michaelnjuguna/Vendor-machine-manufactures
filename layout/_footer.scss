@@ -1,0 +1,46 @@
+.footer{
+    width: 100vw;
+    background-color: $tertiarycolor;
+    .main-footer{
+        width: 80%;
+        margin: 0 auto;
+        color: $secondaryfontcolor;
+        text-align: center;
+        padding-bottom: 2rem;
+
+        .footer-brand{
+            font-family: $headerfont;
+            font-size: 1.2rem;
+            .brand-logo{
+                font-family: $navbarfont;
+                margin: 1rem 0;
+            }
+        }
+        ul{
+            list-style: none;
+            li{
+                display: inline-block;
+                padding-left: .2rem;
+                a{
+                    color: $secondaryfontcolor;
+                    text-decoration: none;
+                }
+               
+            }
+            .footer-dropdown{
+                li{
+                    a{
+                        color: $primaryfontcolor;
+                    }
+                }
+            }
+        }
+        ul{
+            li{
+                i{
+                    margin-top: 1rem;
+                }
+            }
+        }
+    }
+}

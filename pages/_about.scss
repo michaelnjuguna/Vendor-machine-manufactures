@@ -1,0 +1,33 @@
+.about-description {
+    width: 100vw;
+    text-align: center;
+
+    .about-us__main {
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 4rem;
+        h1{
+            padding-top: 1rem;
+        }
+    }
+
+    img {
+        width: 18rem;
+    }
+}
+
+
+//team
+
+.team {
+    width: 100vw;
+text-align: center;
+   .team-member{
+       
+       margin: 1rem auto;
+       .card{
+           width: 18rem;
+           margin: 1rem auto;
+       }
+   }
+}

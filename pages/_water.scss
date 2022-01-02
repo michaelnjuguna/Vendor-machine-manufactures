@@ -1,0 +1,59 @@
+.product-description{
+    width: 100vw;
+    text-align: center;
+    .product-header{
+        width: 80%;
+        margin: 5rem auto 1rem;
+    }
+}
+
+.stages{
+    width: 100vw;
+    text-align: center;
+    .stages-main{
+        width: 80%;
+        margin: 0 auto;
+        ul{
+            li{
+                list-style: none;
+            }
+        }
+    }
+}
+
+// benefits
+
+.benefits{
+    width: 100vw;
+    .benefits-main{
+        width: 80%;
+        margin: 1rem auto;
+        ul{
+            li{
+                list-style:none;
+                font-size: 1rem;
+                font-family: $paragraphfont;
+                color: $primaryfontcolor;
+            }
+        }
+    }
+}
+
+//collection
+.collection{
+    width: 100vw;
+    .collection-main{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+//FAQ
+.FAQ{
+    width: 100vw;
+    .faq-main{
+        width: 80%;
+        margin: 1rem auto;
+    }
+}

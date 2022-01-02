@@ -1,0 +1,15 @@
+.main-cta {
+    width: 100vw;
+    background-color: $tertiarycolor;
+    padding: .5rem 0;
+
+    .form-cta {
+        width: 80%;
+        margin: 1rem auto;
+        font-family: $headerfont;
+        font-size: 1rem;
+        color: $secondaryfontcolor;
+        text-align: center;
+
+    }
+}
